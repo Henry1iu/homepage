@@ -5,19 +5,38 @@ layout: archive
 {{ content }}
 
 <h3 class="archive__subtitle">{{ site.data.ui-text[site.locale].bio | default: "Biograhpy" }}</h3>
-<p> I'm Jianbang LIU, a research assistant from Robotics, Perception & AI Lab in the Department of Electronic Engineering, The Chinese University of Hong Kong. I graduated from Master of Science program provided by the Department of Electrical and Electronic Engineering, The University of Hong Kong, and a joint bachelor program provided by The Hong Kong Polytechnic University and The Sun Yat-Sen University. <br>
-<br>
-Currently, My research interests includes 3D object detection and tracking, SLAM, robotic vision for navigation and decision making, VR in robotics.
+<p style="font-size:60%";> 
+	I'm Jianbang LIU, a research assistant from Robotics, Perception & AI Lab in the Department of Electronic Engineering, The Chinese University of Hong Kong. I graduated from Master of Science program provided by the Department of Electrical and Electronic Engineering, The University of Hong Kong, and a joint bachelor program provided by The Hong Kong Polytechnic University and The Sun Yat-Sen University. <br>
+	<br>
+	Currently, My research interests includes 3D object detection and tracking, SLAM, robotic vision for navigation and decision making, VR in robotics.
 </p>
 
 <h3 class="archive__subtitle">{{ site.data.ui-text[site.locale].current_project | default: "Current Project(s)" }}</h3>
+	<ul style="list-style-type:square;">
+		<li>3D Position and Orientation Detection of Objects Using Color Image and Point Cloud</li>
+		<li>Prototyping of Wireless Capsule Endoscopy</li>
+	</ul>
 
 <h3 class="archive__subtitle">{{ site.data.ui-text[site.locale].past_projects | default: "Past Projects" }}</h3>
+	<ul style="list-style-type:square;">
+		<li>Prototyping of Wireless Hearing Assistant, CHEARS</li>
+		<li>Deep Learning Speech Enhancement System for Hearing-aid, CHEARS</li>
+		<li>Panoramic Video Processor, ADS@ASTRI</li>
+	</ul>
 
 <h3 class="archive__subtitle">{{ site.data.ui-text[site.locale].exp | default: "Experience" }}</h3>
-
+	<ul style="list-style-type:square;">
+		<li>2019.07 - Current: Research Assistant @ Robotics, Perception & AI Lab, CUHK</li>
+		<li>2018.08 - 2019.06: Hardware Engineer @ CHEARS Technology Company Limited;</li>
+		<li>2016.11 - 2018.08: Software Engineer @ Advance Digital System Department, Hong Kong Applied Science and Technology Research Institute (ASTRI);</li>
+		<li>2015.12 - 2016.10: Co-founder, algorithm designer and Hardware Engineer @ CHEARS Technology Company Limited;</li>
+	</ul>
 <h3 class="archive__subtitle">{{ site.data.ui-text[site.locale].edu | default: "Education" }}</h3>
-
+	<ul style="list-style-type:square;">
+		<li>2015 - 2016: MSc in Electrical and Electronic Engineering, The University of Hong Kong</li>
+		<li>2011 - 2015: Bachelor in Electronic Engineering, The Hong Kong Polytechnic University</li>
+		<li>2011 - 2015: Bachelor in Microelectronic, Sun Yat-Sen University</li>
+	</ul>
 {% for post in paginator.posts %}
   {% include archive-single.html %}
 {% endfor %}
