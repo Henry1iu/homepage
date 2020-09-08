@@ -109,13 +109,13 @@ analytics:
 author:
   name             : "Jianbang LIU"
   avatar           : "/assets/images/1_1.jpg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "I am Jianbang LIU (刘剑邦), currently a research assistent @  Robotics, Perception & AI Lab."
+  bio              : "I am Jianbang LIU (刘剑邦), currently a PhD student @  Robotics, Perception & AI Lab, EE, CUHK."
   location         : "Hong Kong"
   email            :
   links:
     - label: "Work Email"
       icon: "fas fa-fw fa-envelope-square"
-      url: mailto:henryliu@cuhk.edu.hk
+      url: mailto:henryliu@link.cuhk.edu.hk
     - label: "Personal Email"
       icon: "fas fa-fw fa-envelope-square"
       url: mailto:liu.jb.henry@gmail.com
@@ -143,7 +143,8 @@ footer:
       # url:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      # url:
+      url: "https://github.com/Henry1iu"
+
     - label: "GitLab"
       icon: "fab fa-fw fa-gitlab"
       # url:
@@ -152,7 +153,7 @@ footer:
       # url:
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
-      # url:
+      url: "https://www.instagram.com/liujbang/?hl=en"
 
 
 # Reading Files
