@@ -34,6 +34,7 @@ en: &DEFAULT_EN
   email_label                : "Email"
   recent_posts               : "Recent posts"
   bio                        : "Biography"
+  pub                        : "Publication(s)"
   current_project            : "Current Project(s)"
   past_projects              : "Past Projects"
   exp                        : "Experience"
